@@ -1,0 +1,82 @@
+/*Estyilos de navehacion*/
+
+.fondov{
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.fondov video{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 200;
+    left: 0;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.primeraCapa{
+    width: 80%  ;
+    margin: auto;
+    margin-top: 70px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.primeraCapa h1{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px 10px;
+    font-family:serif;
+
+
+}
+.contenido h1{
+    font-size: 3rem;
+    margin-top: -15vh;
+    color: white;
+}
+.contenido p{
+    color: white;
+    font-family: serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.bg-purple{
+    background-color: #002B53;
+}
+.bg-purple a{
+    color: white !important;
+}
+.navbar-toggler{
+    border: 1px solid white !important;
+
+}
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+footer{
+   width: 80%;
+    margin:auto;
+    text-align: center;
+}
+.center{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 70vh;
+    background-color: #530013;
+    border:1px solid #530013;
+    color: white;
+}
+.center:hover
+{
+    background-color: white;
+    color: #530013;
+    border: 1px solid #530013;
+    outline: none;
+}
